@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.Calcu {
+  background-color: #000;
+  width: 350px;
+  height: 750px;
+  border-radius: 50px;
+  padding: 30px;
+}
+.display {
+  width: 90%;
+  height: 35%;
+  overflow: hidden;
+  margin: auto;
+}
+.display p {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  font-size: 80px;
+  margin: 0;
+}
+.numbers {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.numbers button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 600;
+  background-color: var(--clr);
+  color: var(--cl);
+  font-family: "Open Sans", sans-serif;
+  transition: all 0.1s ease;
+}
+
+.numbers button:hover {
+  background-color: var(--hov);
+}
+
+.number0 {
+  width: 170px !important;
+  border-radius: 50px !important;
+  display: flex;
+  align-items: center;
+  padding: 0 28px;
+  justify-content: flex-start !important;
+}
